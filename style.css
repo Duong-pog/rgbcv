@@ -1,0 +1,49 @@
+@keyframes rgb {
+    from{
+        background-color: #8A1BF5;
+    }
+    20%{
+        background-color: #F51BB3;
+    }
+    40% {
+        background-color: #D11BF5;
+    }
+    60% {
+        background-color: #431BF5;
+    }
+    80% {
+        background-color: #F4192F;
+    }
+    100% {
+        background-color: #8A1BF5;
+    }
+}
+body{
+    animation: rgb 5s linear 0s infinite;
+}
+img{
+    border-radius: 50%;
+}
+img:hover{
+    transform: rotate(3600deg) scale(1.5) skew(45deg);
+    transition: 3s;
+}
+
+.btn{
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 200ms;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+#jump{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
